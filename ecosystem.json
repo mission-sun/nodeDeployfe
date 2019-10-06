@@ -18,7 +18,7 @@
       "port": "22",
       "ref": "origin/master",
       "repo": "https://github.com/mission-sun/nodeDeployfe.git",
-      "path": "file01/nideFirst",
+      "path": "file01/nideFirst/production",
       "ssh_options": "StrictHostKeyChecking=no",
       "env": {
         "NODE_ENV": "production"
