@@ -3,7 +3,7 @@ const path = require("path");
 const url = require("url");
 const fs = require("fs");
 const hostname = "127.0.0.1";
-const port = 8081;
+const port = 8083;
 const server = http.createServer((req, res) => {
   // parse 的对象转换有pathname
   let pathname = url.parse(req.url).pathname;
@@ -28,6 +28,6 @@ const server = http.createServer((req, res) => {
     res.end(data);
   }
 });
-server.listen(port, hostname, () => {
+server.listen(port, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
